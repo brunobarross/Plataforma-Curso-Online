@@ -19,3 +19,7 @@ body {
 /* query =  buscar dados */
 
 /* mutation = criar, alterar ou deletar dados */
+
+/* over fetching é quando o backend retorna mais coisas que pedimos */
+
+/* under fetching quando o nosso backend não retorna todas as informações que precisamos no front */
