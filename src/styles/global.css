@@ -51,3 +51,18 @@ query GetLessongBySlug($slug: String) {
 /* desafio 1 - passar a primeira aula se não tiver slug ou então mostrar um placeholder */
 
 /* desafio 2 - mostrar um spinner no carregamento */
+
+/* assets sempre dentro de src*/
+
+/* quando usamos cms podemos cadastrar dados também*/
+
+/* é recomendado ter um backend intermediando as requisições para não expor o cms no front end */
+
+/* váriavel no graph cms são usadas quando o dado depende de outro dado ex: 
+  name: $name
+    */
+
+/* no graphcms eu devo criar uma permissão para leitura de rascunho pra poder criar um subscriber e retornar algo dele no front*/
+
+/* params loading é pra ter um status da requisição, se tiver true ela tá sendo feita e se for false
+é porque terminou ou não foi feita */
