@@ -26,3 +26,28 @@ body {
 /* under fetching quando o nosso backend não retorna todas as informações que precisamos no front */
 
 /* quando não tem classe criada eu coloco w-[valordesejadopx] */
+
+/* Vimejs pro video*/
+
+/*group-hover: quando  estiver fazendo hover no grupo inteiro o elemento vai ter o estilo que eu quero */
+
+/* quando está usando react router não usamos o a para fazer a ancora e sim o elemento Link*/
+
+/* quando uso uma variavel numa query ($variavel) devo fazer:
+query GetLessongBySlug($slug: String) {
+  lesson(where: {slug: $slug}) {
+    title
+    videoId
+    description
+    teacher {
+      bio
+      avatarURL
+      name
+    }
+  }
+}
+ */
+
+/* desafio 1 - passar a primeira aula se não tiver slug ou então mostrar um placeholder */
+
+/* desafio 2 - mostrar um spinner no carregamento */
