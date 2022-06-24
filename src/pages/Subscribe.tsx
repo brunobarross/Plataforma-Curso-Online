@@ -52,7 +52,7 @@ export function Subscribe() {
               className="bg-gray-900 rounded px-5 h-14"
               type="text"
               placeholder="Seu nome completo"
-              onChange={(event) => setNome(event.target.value)}
+              onChange={(event) => setName(event.target.value)}
             />
 
             <input
