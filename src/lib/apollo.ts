@@ -1,18 +1,10 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 
-const defaultOptions: DefaultOptions = {
+// const defaultOptions: DefaultOptions = {
 
-  watchQuery: {
-    fetchPolicy: "no-cache",
-    errorPolicy: "ignore",
-  },
 
-  query: {
-    fetchPolicy: "no-cache",
-    errorPolicy: "all",
-  },
-};
+// };
 
 export const client = new ApolloClient({
   uri: import.meta.env.VITE_API_URL,
@@ -20,5 +12,15 @@ export const client = new ApolloClient({
     'Authorization': `Bearer ${import.meta.env. VITE_API_ACESS_TOKEN} `
   },
   cache: new InMemoryCache(),
-  defaultOptions: defaultOptions,
+   defaultOptions: {
+    watchQuery: {
+    fetchPolicy: "no-cache",
+    errorPolicy: "ignore",
+  },
+
+  query: {
+    fetchPolicy: "no-cache",
+    errorPolicy: "all",
+  }, 
+}
 })
