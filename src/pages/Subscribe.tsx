@@ -25,23 +25,26 @@ export function Subscribe() {
   }
 
   return (
-    <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center ">
-      <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-        <div className="max-w-[640px]">
-          <Logo />
-          <h1 className="mt-8 text-[2.5rem] leading-tight">
+    <div className="lg:min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+      <div className="w-full max-w-[1100px] flex flex-col lg:flex-row lg:items-center justify-between mt-20 mx-auto">
+        <div className="lg:max-w-[640px] pb-8 px-6 lg:pb-0 lg:px-0">
+          <div className="mx-auto flex justify-center lg:justify-start lg:mx-0">
+            <Logo />
+          </div>
+
+          <h1 className="mt-6 lg:mt-8  text-[2rem] lg:text-[2.5rem] leading-tight text-center lg:text-left">
             Construa uma
             <strong className="text-blue-500"> aplicação completa</strong>, do
             zero, com <strong className="text-blue-500">React</strong>
           </h1>
-          <p className="mt-4 text-gray-200 leading-relaxed">
+          <p className="mt-6 lg:mt-4 text-center lg:text-left text-gray-200 leading-relaxed">
             Em apenas uma semana você vai dominar na prática uma das tecnologias
             mais utilizadas e com alta demanda para acessar as melhores
             oportunidades do mercado.
           </p>
         </div>
-        <div className="p-8 bg-gray-700 border border-gray-500 rounded">
-          <strong className="text-2xl mb-6 block">
+        <div className="p-8 w-full lg:w-auto lg:w bg-gray-700 border border-gray-500 rounded">
+          <strong className="text-lg lg:text-2xl mb-6 block">
             Inscreva-se gratuitamente
           </strong>
           <form
@@ -72,8 +75,9 @@ export function Subscribe() {
           </form>
         </div>
       </div>
-
-      <img src={mockupImg} className="mt-10" alt="" />
+      <div className="mt-4 lg:mt-10">
+        <img src={mockupImg} alt="" />
+      </div>
     </div>
   );
 }
