@@ -66,3 +66,5 @@ query GetLessongBySlug($slug: String) {
 
 /* params loading é pra ter um status da requisição, se tiver true ela tá sendo feita e se for false
 é porque terminou ou não foi feita */
+
+/* codegen graphql */
