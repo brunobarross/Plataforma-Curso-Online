@@ -42,7 +42,7 @@ export function Lesson(props: LessonProps) {
   const isActiveLesson = slug === props.slug;
 
   return (
-    <Link to={`/event/lesson/${props.slug}`} className="group" onClick={(e)=> props.setIsOpen(!props.isOpen)}>
+    <Link to={`/event/lesson/${props.slug}`} className="group" onClick={()=> props.setIsOpen(!props.isOpen)}>
       <span className="text-gray-300 text-base">{availableDateFormatted}</span>
       <div
         className={classNames(
