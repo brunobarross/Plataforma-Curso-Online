@@ -54,7 +54,7 @@ export function Video(props: VideoProps) {
                   src={data.lesson.teacher.avatarURL}
                 />
                 <div className="leading-relaxed">
-                  <strong className="font-bold text-2xl block">
+                  <strong className="font-bold text-lg lg:text-2xl block">
                     {data.lesson.teacher.name}
                   </strong>
                   <span className="text-gray-200 text-sm lock">
@@ -100,7 +100,7 @@ export function Video(props: VideoProps) {
               </p>
             </div>
             <div className="h-auto lg:h-full p-6 flex items-center">
-              <CaretRight size={24} />
+              <CaretRight color="#81D8F7" size={24} />
             </div>
           </a>
           <a
@@ -120,7 +120,7 @@ export function Video(props: VideoProps) {
               </p>
             </div>
             <div className="h-auto lg:h-full p-6 flex items-center">
-              <CaretRight size={24} />
+              <CaretRight color="#81D8F7" size={24} />
             </div>
           </a>
         </div>
