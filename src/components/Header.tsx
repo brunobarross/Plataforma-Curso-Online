@@ -8,7 +8,7 @@ interface Props {
 
 export function Header(props: Props) {
   return (
-    <header className="w-full py-5 px-6 flex items-center justify-between lg:justify-center bg-gray-700 border-b border-gray-600 h-16 lg:h-auto">
+    <header className="w-full py-5 px-6 flex items-center justify-between lg:justify-center bg-gray-700 border-b border-gray-600 h-16 lg:h-auto fixed lg:static top-0 left-0 z-[2000] lg:z-auto ">
       <Logo />
       <button
         className="flex items-center lg:hidden text-sm"

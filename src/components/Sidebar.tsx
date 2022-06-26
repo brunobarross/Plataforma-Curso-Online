@@ -14,7 +14,7 @@ export function Sidebar(props: Props) {
 
 
   return (
-    <aside className={classNames('lg:static fixed z-[1000] lg:z-index-auto top-16 left-0 w-full min-h-screen lg:static lg:w-[348px] bg-gray-700 p-6 border-1 border-l border-gray-600 transition-transform',{
+    <aside className={classNames('absolute lg:static z-[1000] lg:z-index-auto top-16 left-0 w-full min-h-screen  lg:w-[348px] bg-gray-700 p-6 border-1 border-l border-gray-600 transition-transform',{
       'transform translate-x-[0]': props.isOpen,
       'transform -translate-x-full lg:translate-x-0 ': !props.isOpen
       
