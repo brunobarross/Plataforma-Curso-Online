@@ -5,7 +5,7 @@
 
 ![plataforma de curso online](./src/assets/screenshot.png)
 
-<h2>Melhorias implementadas no projeto: </h2>
+<h2>Melhorias e novidades implementadas no projeto: </h2>
 
 <ul>
   <li>Responsividade para telas mobile usando Tailwind CSS,</li>
